@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
     padding: 20px;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
-
 header a {
     color: white;
     margin: 0 10px;
@@ -17,167 +17,101 @@ header a {
     display: inline-block;
     transition: color 0.3s ease;
 }
-
+header a::before, header a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+header a::before {
+    top: 0;
+    left: 0;
+    transform-origin: left;
+}
+header a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: right;
+}
+header a:hover::before, header a:hover::after {
+    transform: scaleX(1);
+}
 header hr {
     border: none;
     border-top: 2px solid white;
     margin: 10px 0;
 }
-
 .header1 {
     background-color: mediumpurple;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
-
+.header1:hover {
+    background-color: darkorchid;
+    color: yellow;
+}
 .header2 {
     background-color: rgb(155, 148, 132);
 }
-
+.header2 a {
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+}
 .header3 {
     background-color: dodgerblue;
 }
-
+.header3 img {
+    transition: transform 0.5s ease;
+}
+.header3 img:hover {
+    transform: rotate(360deg);
+}
 .header4 {
     background-color: rgb(151, 9, 9);
 }
-
+.header4 a {
+    position: relative;
+    overflow: hidden;
+}
+.header4 a::before, .header4 a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+}
+.header4 a::before {
+    top: 0;
+    left: 0;
+    transform-origin: left;
+}
+.header4 a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: right;
+}
+.header4 a:hover::before, .header4 a:hover::after {
+    transform: scaleX(1);
+}
 .header5 {
     background-color: rgb(131, 4, 91);
 }
-
+.header5 img {
+    transition: transform 0.5s ease;
+}
+.header5 img:hover {
+    transform: scale(1.2);
+}
 .header-title {
     font-weight: bold;
     font-size: 24px;
 }
-
-.buy-now {
-    background-color: white;
-    color: goldenrod;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.logo {
-    vertical-align: middle;
-    margin-left: 10px;
-}
-
-/* Animation 1: Slide in from left */
-.header1 a::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: white;
-    bottom: 0;
-    left: 0;
-    transition: width 0.4s ease;
-}
-
-.header1 a:hover::before {
-    width: 100%;
-}
-
-/* Animation 2: Slide up underline */
-.header2 a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    bottom: -5px;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.4s ease;
-}
-
-.header2 a:hover::before {
-    transform: scaleX(1);
-    transform-origin: left;
-}
-
-/* Animation 3: Background color change */
-.header3 a {
-    transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-.header3 a:hover {
-    background-color: white;
-    color: dodgerblue;
-    padding: 5px 10px;
-}
-
-/* Animation 4: Border animation */
-.header4 a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid white;
-    transform: scale(0);
-    transition: transform 0.4s ease;
-}
-
-.header4 a:hover::before {
-    transform: scale(1);
-}
-
-/* Animation 5: Text shadow */
-.header5 a {
-    transition: text-shadow 0.4s ease;
-}
-
-.header5 a:hover {
-    text-shadow: 0px 0px 10px white;
-}
-
-/* Footer Styles */
-footer {
-    background-color: mediumpurple;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    header {
-        text-align: center;
-    }
-
-    header img {
-        width: 100%;
-        max-width: 200px;
-        display: block;
-        margin: 10px auto;
-    }
-
-    header a {
-        display: block;
-        margin: 5px 0;
-    }
-
-    .header2 button.buy-now {
-        width: 100%;
-        max-width: 200px;
-        margin: 10px auto;
-        display: block;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-title {
-        font-size: 18px;
-    }
-
-    header a {
-        font-size: 14px;
-    }
-
-    .buy-now {
-        font-size: 14px;
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
     }
 }
