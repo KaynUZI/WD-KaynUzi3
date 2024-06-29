@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/KaynUZI/WD-Seatwork-3">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="Nyebe" width="130" height="100">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2Fkanye-west-graduation-bear-art-print--644014815478167035%2F&psig=AOvVaw2yEV6-iF2weGFOmthNnECp&ust=1719730371437000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiB4ICdgIcDFQAAAAAdAAAAABAE" alt="Kayn Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
