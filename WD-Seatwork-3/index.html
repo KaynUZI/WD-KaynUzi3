@@ -1,93 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Header Designs</title>
-    <link rel="stylesheet" href="../../style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- CDNJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url("./assets/img/Background\ sw3\ 2.jpg") no-repeat center center/cover;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      color: white;
+    }
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .button {
+      padding: 10px 20px;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: black;
+    }
+  </style>
 </head>
 <body>
-    <!-- Header Design 1 -->
-    <header class="header1">
-        <div class="header-title">Design 1: College Dropout</div>
-        <img src="/Images/Image 1.jpg" alt="">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Products</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Services</a>
-        <hr>
-    </header>
-
-    <!-- Header Design 2 -->
-    <header class="header2">
-        <div class="header-title">Design 2: BBL Drizzy</div>
-        <img src="/Images/image 2.jpg" alt="">
-        <a href="#">Series</a>
-        <a href="#">Movies</a>
-        <a href="#">About</a>
-        <a href="#">Help</a>
-        <a href="#">Contact</a>
-        <button style="background-color: white; color: goldenrod; border: none; padding: 5px 10px; cursor: pointer;">Buy Now</button>
-        <hr>
-    </header>
-
-    <!-- Header Design 3 -->
-    <header class="header3">
-        <div class="header-title">Design 3: M.A.A.D City</div>
-        <img src="/Images/image 3.jpg" alt="">
-        <a href="#">Products</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-        <a href="#">Production</a>
-        <a href="#">Contact</a>
-        <img src="/Images/logo 3.jpg" alt="Logo" style="vertical-align: middle; margin-left: 10px;">
-        <hr>
-    </header>
-
-    <!-- Header Design 4 -->
-    <header class="header4">
-        <div class="header-title">Design 4: FWAEH</div>
-        <img src="/Images/image 4.jpg" alt="">
-        <a href="#">Products</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-        <a href="#">Cinematography</a>
-        <a href="#">Contact</a>
-        <hr>
-    </header>
-
-    <!-- Header Design 5 -->
-    <header class="header5">
-        <div class="header-title">Design 5: Scott and Ramona</div>
-        <img src="/Images/image 5.jpg" alt="">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Products</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Services</a>
-        <hr>
-    </header>
-
-    <main>
-        <h4>Check out these cool moves:</h4>
-        <div class="images">
-            <img src="/Images/Static image 1.jpg" alt="Static Image 1">
-            <img src="/Images/static image 2.jpg" alt="Static Image 2">
-            <img src="/Images/static image 3.jpg" alt="Static Image 3">
-            <img src="/Images/static image 4.jpg" alt="Static Image 4">
-            <img src="/Images/static image 5.jpg" alt="Static Image 5">
-        </div>
-        <p>If Pirus and Crips all got along
-            They'd probably gun me down by the end of this song</p>
-    </main>
-
-    <footer style="background-color: mediumpurple">
-        <hr>
-        author: Kayn Uzi Vert<br>
-        &copy; copyright reserved<br>
-        <small><a href="mailto:BroCode@fake.com">JerokeeUZIVert.com</a></small>
-    </footer>
+  <div class="container">
+    <img src="./assets/img/Front page logo.png" alt="Background Logo" class="logo" />
+    <div class="buttons">
+      <a href="./Header-gallery/index.html" class="button">Header</a>
+      <a href="./Footer-gallery/index.html" class="button">Footer</a>
+    </div>
+  </div>
 </body>
 </html>
