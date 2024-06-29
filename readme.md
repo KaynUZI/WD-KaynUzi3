@@ -14,7 +14,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+This project is about header and footers and using my knowledge in this subject i created this masterpiece that i called mine even it just came from what i learn from this subject
 </div>
 
 <br />
@@ -62,20 +62,20 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
-Seatwork 3 about header and footer
+Seatwork 3 focuses on the concepts of headers and footers. This assignment involves a detailed exploration of how to effectively create and design these essential web page components. Students will learn about the structural importance of headers and footers, how to organize content within them, and best practices for styling to ensure visual coherence and user-friendly navigation. The exercise aims to enhance students' understanding and skills in crafting well-structured and aesthetically pleasing headers and footers for web projects.
 - Whats the purpose
-Discovering our talents and skills in this subject
+Exploring and uncovering our unique talents and skills within this subject area allows us to recognize our individual strengths and potential. Through dedicated practice, study, and hands-on experience, we can identify specific abilities that set us apart. This journey of self-discovery not only enhances our understanding of the subject but also boosts our confidence and passion for continued learning and growth. As we delve deeper, we may uncover hidden talents and develop new skills, contributing to our overall mastery and expertise in the field.
 - What are key components
-Header and footers
+Header and footers and visual code
 - What technology used and how it is used
-VScode C++
+This project utilizes HTML to structure the content of headers and footers, defining components such as headings, navigation links, and logos. CSS is then used to style these elements, managing their appearance, layout, and responsiveness to ensure they look attractive and function well across different devices.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+MultiPage Website
+Static Headers
+Animated Headers
+Static Footers
+Animated Footers
 
 ### Technology
 <!-- TODO: List of Technology Used -->
