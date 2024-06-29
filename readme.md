@@ -122,4 +122,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Pinterest | [Sample purpose would be here like this and this is the example of what it is.](https://ph.pinterest.com) | Pinterest.com |
+| Pinterest |(https://ph.pinterest.com) | Pinterest.com |
