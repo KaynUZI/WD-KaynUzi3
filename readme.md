@@ -9,6 +9,7 @@
     <img src="![Image 1](https://github.com/KaynUZI/WD-Seatwork-3./assets/151485715/dee7cf3f-f003-4f81-bab6-79808cd5d7e3)
     " alt="Kayn Logo" width="130" height="100">
   </a>
+  
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
 </div>
