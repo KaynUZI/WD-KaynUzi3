@@ -1,4 +1,4 @@
-<a name="readme-top">
+![Image 1](https://github.com/KaynUZI/WD-Seatwork-3./assets/151485715/bfaf937c-c8cc-420c-90ed-4c43ac9cd300)<a name="readme-top">
 
 <br/>
 
@@ -6,7 +6,8 @@
 <div align="center">
   <a href="https://github.com/KaynUZI/WD-Seatwork-3">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="[https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2Fkanye-west-graduation-bear-art-print--644014815478167035%2F&psig=AOvVaw2yEV6-iF2weGFOmthNnECp&ust=1719730371437000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiB4ICdgIcDFQAAAAAdAAAAABAE](https://i.pinimg.com/originals/1b/d8/38/1bd838c7669dbb652d03ec21d0dc9573.jpg)" alt="Kayn Logo" width="130" height="100">
+    <img src="![Image 1](https://github.com/KaynUZI/WD-Seatwork-3./assets/151485715/dee7cf3f-f003-4f81-bab6-79808cd5d7e3)
+    " alt="Kayn Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
