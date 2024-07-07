@@ -124,3 +124,6 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Pinterest |(https://ph.pinterest.com) | Pinterest.com |
+| Google |(https://google.com) | google.com |
+| Google Fonts |(https://google.com) | google.com |
+| Deployment Link | Published site link | [KaynUZI3]([https://kaynuzi.github.io/WD-Seatwork-4/index.html](https://kaynuzi.github.io/WD-KaynUzi3/)) |
