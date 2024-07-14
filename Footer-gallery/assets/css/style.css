@@ -6,16 +6,6 @@ h1 {
     text-align: center;
 }
 
-nav {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: blue;
-}
-
 .footer-design {
     margin: 20px 0;
     padding: 20px;
@@ -23,51 +13,48 @@ nav a {
     background: #e0ffe0;
 }
 
-#design1 .content,
-#design3 .content,
-#design4 .content,
-#design5 .content {
+.footer-logo {
+    height: 50px;
+}
+
+.footer-design .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#design2 .content {
-    background: #00ffff;
+.footer-design .social-icons {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 15px;
 }
 
-#design5 form {
+.footer-design .social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-design .social-icons a:hover {
+    color: #007bff;
+}
+
+.footer-design form {
     display: flex;
 }
 
-#design5 input[type="email"] {
+.footer-design input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
 }
 
-#design5 button {
+.footer-design button {
     padding: 10px;
     border: none;
-    background: #00ff00;
+    background: #007bff;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-}
-
-.footer-design img {
-    height: 50px;
-}
-
-.footer-design .social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.footer-design .social-icons img {
-    height: 20px;
+    color: white;
 }
 
 .footer-design span {
